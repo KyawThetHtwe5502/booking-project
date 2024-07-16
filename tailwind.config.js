@@ -13,11 +13,20 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
-      },
+        "md": "94%",
+        "xl": "1140px",
+        "2xl": "1174px",
+      },},
+    fontFamily: {
+      body: ["DM Sans", "sans-serif"],
+      heading: ["Poppins", "sans-serif"],
+      sans: ["DM Sans", "sans-serif"],
     },
     extend: {
       colors: {
+          dark : "#0006",
+          primary: "#5143D9",     
+          warning: "#F7C32E",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

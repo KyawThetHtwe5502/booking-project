@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Poppins:wght@300;400;500;700&display=swap");
+
 @tailwind base;
   @tailwind components;
   @tailwind utilities;
@@ -66,11 +68,33 @@
     }
   }
 
+  
+
   @layer base {
     * {
       @apply border-border;
     }
     body {
       @apply bg-background text-foreground;
+    }
+  }
+  @layer components{
+    .slide-down {
+      animation-name: slideDown;
+      animation-duration: 500ms;
+    }
+  
+    .fixed-nav {
+      @apply fixed slide-down shadow-md  transition !important;
+    }
+  }
+  
+
+  @keyframes slideDown {
+    from{
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
     }
   }

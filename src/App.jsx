@@ -1,8 +1,18 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import { ChainPage, ContactPage, HomePage, OurTeamPage } from './page'
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Routes>
+        <Route path='/' element={<HomePage/>} />
+        <Route path='/hotel-chain' element={<ChainPage/>} />
+        <Route path='/contact' element={<ContactPage/>} />
+        <Route path='/team' element={<OurTeamPage/>} />
+      </Routes>
+    </div>
   )
 }
 
