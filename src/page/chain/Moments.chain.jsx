@@ -60,7 +60,7 @@ const MomentsChain = () => {
     ]
     return (
         <section className='py-7'>
-            <h1 className='text-center text-5xl font-heading font-bold mb-10'>Our Hotel Precious Moments</h1>
+            <h1 className='text-center text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-heading font-bold mb-10'>Our Hotel Precious Moments</h1>
             <Carousel opts={{
                 align: "start",
                 loop: true,

@@ -4,8 +4,13 @@ import DropDownComponents from '../update/DropDown.components';
 import { Button } from '../ui/button';
 import { BsCircleHalf, BsBrightnessHighFill, BsMoonStarsFill } from "react-icons/bs";
 
+import ChainDrop from '../update/ChainDrop';
+import { NavigationMenuDemo } from '../update/ChainComponents';
+
+
 
 const NavChainComponents = () => {
+  
   return (
     <section>
       <div className='container mx-auto'>
@@ -50,7 +55,47 @@ const NavChainComponents = () => {
               </DropDownComponents>
             </div>
 
-            <div></div>
+            <div>
+              {/* <NavigationComponents item={"Find a hotel"} >
+                <div className='grid grid-cols-4 gap-16'>
+                <span className='col-span-2'>
+                  <h3>Destination</h3>
+                  <hr />
+                  <ul className='flex flex-col'>
+                    <li><NavigationMenuItem>New York</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>California</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>New Jersey</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Canada</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Las vegas</NavigationMenuItem></li>
+                  </ul>
+                  <ul className='flex flex-col'>
+                    <li><NavigationMenuItem>London</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Singapore</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Malaysia</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>manhattan</NavigationMenuItem></li>
+                  </ul>
+                </span>
+                <span className='col-span-1'>
+                  <h6>Hotel type</h6>
+                  <hr />
+                  <ul>
+                    <li><NavigationMenuItem>All</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Hotels</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Villas</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Palace</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Resorts</NavigationMenuItem></li>
+                    <li><NavigationMenuItem>Restaurants</NavigationMenuItem></li>
+                  </ul>
+                </span>
+                <span className='col-span-1'>
+                  <h6>category</h6>
+                </span>
+                <span className='col-span-4'></span>
+                </div>
+              </NavigationComponents> */}
+              {/* <ChainDrop/> */}
+              <NavigationMenuDemo/>
+            </div>
           </div>
         </div>
       </div>

@@ -15,8 +15,8 @@ const NavigationComponents = ({item,children}) => {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className="bg-white hover:bg-white active:bg-white">{item}</NavigationMenuTrigger>
-                    <NavigationMenuContent className="p-2">
+                    <NavigationMenuTrigger className="bg-opacity-0 active:bg-opacity-0   hover:bg-opacity-0 dark:hover:bg-opacity-0 dark:bg-opacity-0">{item}</NavigationMenuTrigger>
+                    <NavigationMenuContent className="p-2 ">
                         {children}
                     </NavigationMenuContent>
                 </NavigationMenuItem>

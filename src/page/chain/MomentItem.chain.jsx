@@ -10,7 +10,7 @@ const MomentItemChain = ({item: {id,img,smallImg,icon}}) => {
         setIsHover(false)
     }
     return (
-        <CarouselItem onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className=" basis-1/6" >
+        <CarouselItem onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className="basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/6" >
             <a href={img}  className={`glightbox3 relative w-full`}>
                 <img src={smallImg} className='rounded-2xl' />
                 <div className={`bg-dark w-full h-full  rounded-2xl absolute flex justify-center items-center top-0 opacity-0 ${isHover && "opacity-100 duration-200" }`}>

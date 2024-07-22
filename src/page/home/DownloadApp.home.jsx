@@ -7,28 +7,28 @@ const DownloadAppHome = () => {
             <div className='container mx-auto py-14'>
                 <div className=''>
                     <div className='grid grid-cols-6 gap-y-4 gap-x-8'>
-                        <div className='col-span-3 bg-white px-6 py-5 rounded-2xl'>
+                        <div className='col-span-6 md:col-span-3 lg:col-span-3 xl:col-span-3 dark:bg-darkBg bg-white px-6 py-5 rounded-2xl'>
 
-                            <div className='flex items-center gap-x-4'>
+                            <div className='flex items-start xl:items-center gap-x-4'>
                                 <FaHandHoldingHeart className='text-5xl' />
                                 <div>
                                     <h4 className='font-bold font-heading text-xl mb-2'>24x7 Help</h4>
-                                    <p>If we fall short of your expectation in any way, let us know</p>
+                                    <p className='text-gray-500'>If we fall short of your expectation in any way, let us know</p>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-span-3 bg-white px-6 py-5 rounded-2xl'>
-                            <div className='flex items-center gap-x-4'>
+                        <div className='col-span-6 md:col-span-3 lg:col-span-3 xl:col-span-3 dark:bg-darkBg bg-white px-6 py-5 rounded-2xl'>
+                            <div className='flex items-start xl:items-center gap-x-4'>
                                 <FaHandHoldingUsd className='text-5xl' />
                                 <div>
                                     <h4 className='text-xl font-heading font-bold mb-3'>Payment Trust</h4>
-                                    <p>All refunds come with no questions asked guarantee</p>
+                                    <p className='text-gray-500'>All refunds come with no questions asked guarantee</p>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-span-3'>
+                        <div className='col-span-6 md:col-span-3 lg:col-span-3 xl:col-span-3'>
                             <h3 className='text-xl font-heading font-bold mb-6'>Download app</h3>
-                            <div className='grid grid-cols-2 gap-x-4 w-[80%]'>
+                            <div className='grid grid-cols-2 gap-x-4 xl:w-[80%]'>
                                 <img src="google-play.svg" alt="" />
                                 <img src="app-store.svg" alt="" />
                             </div>

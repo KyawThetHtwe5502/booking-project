@@ -5,7 +5,7 @@ import { ChainPage, ContactPage, HomePage, OurTeamPage } from './page'
 
 const App = () => {
   return (
-    <div>
+    <div className='dark:bg-darkBg '>
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/hotel-chain' element={<ChainPage/>} />

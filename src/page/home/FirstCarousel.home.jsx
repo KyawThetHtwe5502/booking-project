@@ -41,7 +41,7 @@ const FirstCarouselHome = () => {
     }
   ]
   return (
-    <div  className='container mx-auto my-28'>
+    <div  className='container mx-auto mb-12 lg:mb-52 xl:my-28 md:mb-20 lg:mt-52'>
       <Carousel
       opts={{
         align: "start",loop: true

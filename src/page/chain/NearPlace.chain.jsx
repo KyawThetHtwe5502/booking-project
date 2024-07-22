@@ -59,8 +59,8 @@ const NearPlaceChain = () => {
     ]
     return (
         <section className='container mx-auto my-36'>
-            <h2 className='font-heading font-bold text-5xl text-center mb-8'>Explore Nearby</h2>
-            <div className='grid grid-cols-6 gap-10'>
+            <h2 className='font-heading font-bold text-3xl md:text-4xl lg:text-5xl xl:text-5xl text-center mb-8'>Explore Nearby</h2>
+            <div className='grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 xl:grid-cols-6 gap-10'>
                 {locations.map(i => <div className='group' key={i.id}>
                     <img className='w-full aspect-square rounded-full mb-5 ' src={i.image} alt="" />
                     <a className='block text-center leading-5 text-xl font-heading font-bold mb-3 group-hover:text-blue-500 duration-300'>{i.town}</a>

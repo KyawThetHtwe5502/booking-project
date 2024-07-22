@@ -68,7 +68,7 @@ const MembersOurTeam = () => {
   ];
   return (
     <section id='wy' className='container mx-auto'>
-      <div className='grid grid-cols-4 gap-x-4'>
+      <div className='grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-x-4'>
       {members.map(i => <div key={i.id} className='rounded-xl group inline-block mb-5'>
         <div className='relative mb-1 rounded-xl inline-block overflow-hidden'>
           <img src={i.image} className='duration-300 group-hover:scale-[1.02]' alt="" />
@@ -89,7 +89,7 @@ const MembersOurTeam = () => {
         </div>
         <div className='p-2'>
           <h3 className='text-xl font-heading font-bold hover:text-blue-700 duration-300'>{i.name}</h3>
-          <span className='text-gray-500'>{i.position}</span>
+          <span className='text-gray-500 dark:text-gray-400'>{i.position}</span>
         </div>
       </div>)}
       </div>

@@ -40,19 +40,19 @@ export function ComboboxComponents() {
   return (
 
     <div className="flex items-center gap-x-2">
-      <SlLocationPin className="text-4xl text-gray-500" />
-      <Popover open={open} onOpenChange={setOpen}>
+      <SlLocationPin className="text-4xl text-gray-500 dark:text-gray-400" />
+      <Popover  open={open} onOpenChange={setOpen}>
 
-        <PopoverTrigger >
+        <PopoverTrigger className="dark:bg-opacity-0 md:w-full w-full" >
           
             
             <Button
               variant="outline"
               role="combobox"
               aria-expanded={open}
-              className=" w-[220px] flex justify-between relative border border-gray-400 text-base font-sans py-7 hover:bg-white "
+              className=" xl:w-[220px] lg:w-[220px] flex justify-between  w-full relative border border-gray-400 text-base font-normal py-7 hover:bg-white text-gray-500 dark:text-gray-400 dark:bg-[#191B1D] dark:hover:bg-opacity-100"
             >
-              <h3 className="absolute top-0 -translate-y-4 z-[10] bg-white px-2 font-normal text-gray-500">Location</h3>
+              <h3 className="absolute top-0 -translate-y-4 z-[10] bg-white dark:bg-[#191B1D] px-2 font-normal text-gray-500 dark:text-gray-300">Location</h3>
               {frameworks.find((framework) => framework.value === value)?.value
                 ? frameworks.find((framework) => framework.value === value)?.label
                 : "Select Location"}
@@ -61,10 +61,10 @@ export function ComboboxComponents() {
           
 
         </PopoverTrigger>
-        <PopoverContent className="w-[200px] p-0">
-          <Command>
+        <PopoverContent className="md:w-full  lg:w-[200px] xl:w-[200px] p-0 ">
+          <Command className="md:w-full">
 
-            <CommandInput placeholder="Search framework..." />
+            <CommandInput className="md:w-full" placeholder="Search framework..." />
             <CommandList>
               <CommandEmpty>No framework found.</CommandEmpty>
               <CommandGroup>

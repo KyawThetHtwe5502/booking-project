@@ -15,9 +15,9 @@ import NearPlaceChain from './chain/NearPlace.chain'
 
 const ChainPage = () => {
   return (
-    <div>
+    <div className=''>
       <NavChainComponents/>
-      <HeroSectionChain/>
+      {/* <HeroSectionChain/>
       <OfferChain/>
       <AboutChain/>
       <NearPlaceChain/>
@@ -25,7 +25,7 @@ const ChainPage = () => {
       <BookChain/>
       <MomentsChain/>
       <FooterComponents/>
-      <ScrollToTopComponents/>
+      <ScrollToTopComponents/> */}
     </div>
   )
 }

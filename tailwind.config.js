@@ -2,20 +2,37 @@
 module.exports = {
   darkMode: ["class"],
   content: [
+    './index.html',
     './pages/**/*.{js,jsx}',
     './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    './src/**/*.{js,jsx}'
   ],
   prefix: "",
   theme: {
+    screens: {
+      'sm': {'min': '640px', 'max': '767px'},
+      // => @media (min-width: 640px and max-width: 767px) { ... }
+
+      'md': {'min': '768px', 'max': '1023px'},
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
+
+      'lg': {'min': '1024px', 'max': '1279px'},
+      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+
+      'xl': {'min': '1280px', 'max': '1535px'},
+
+
+
+
+    },
     container: {
       center: true,
-      padding: "2rem",
+      padding: "0.975rem",
       screens: {
-        "md": "94%",
-        "xl": "1140px",
-        "2xl": "1174px",
+        "md": "721.91px",
+        "lg": "946.58px",
+        "xl": "1174px",
       },},
     fontFamily: {
       body: ["DM Sans", "sans-serif"],
@@ -27,6 +44,7 @@ module.exports = {
           dark : "#0006",
           primary: "#5143D9",     
           warning: "#F7C32E",
+          darkBg: "#222529",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

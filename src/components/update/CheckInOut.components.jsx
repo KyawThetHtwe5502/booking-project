@@ -19,23 +19,23 @@ export function CheckInOutComponents({ className }) {
 
   return (
 
-    <div className="flex items-center  gap-x-2">
-      <BsCalendar className="text-4xl text-gray-500"/>
-      <div className={cn("grid gap-2", className)}>
+    <div className="flex items-center   gap-x-2">
+      <BsCalendar className="text-4xl text-gray-500 dark:text-gray-400"/>
+      <div className={cn("grid gap-2 w-full", className)}>
 
-        <Popover>
+        <Popover className="">
 
-          <PopoverTrigger >
+          <PopoverTrigger className="  xl:px-0 lg:px-0 md:px-0">
 
             <Button
               id="date"
               variant="outline"
               className={cn(
-                "w-[220px] justify-start text-left hover:bg-white border-gray-400 py-7 relative  -z[10] font-sans",
+                "xl:w-[220px] lg:w-[220px]  w-full  justify-start text-left hover:bg-white dark:dark:bg-[#191B1D] dark:hover:bg-opacity-100   border-gray-400 py-7 dark:text-gray-300 relative  -z[10] font-sans",
                 !date && "text-muted-foreground"
               )}
             >
-              <h3 className="absolute top-0 -translate-y-4 z-[10] bg-white text-gray-500 font-normal px-2 ">Check in - out</h3>
+              <h3 className="absolute top-0 -translate-y-4 z-[10] text-base bg-white dark:text-gray-300 dark:dark:bg-[#191B1D] dark:hover:bg-opacity-100 text-gray-500 font-normal px-2 ">Check in - out</h3>
               {date?.from ? (
                 date.to ? (
                   <>

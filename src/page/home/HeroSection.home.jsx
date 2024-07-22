@@ -11,29 +11,24 @@ import { BsSearch } from "react-icons/bs";
 
 const HeroSectionHome = () => {
   return (
-    <section className='container mx-auto'>
+    <section className='container mx-auto '>
       <div className='relative'>
-        <div className='flex gap-x-5 '>
-          <div className='mt-5 pr-10'>
-            <h1 className='text-6xl font-heading font-bold leading-[5rem] mb-5'>Find the top <span className='relative inline-block '>
-              Hotels nearby.<span className="block w-[85%] text-blue-500 absolute bottom-0.5 left-0 right-0 mx-auto -z-[1]">
-                <svg width="100%" height="21.5px" viewBox="0 0 445.5 21.5">
-                  <path
-                    className="opacity-70"
-                    fill="currentColor"
-                    opacity={0.7}
-                    d="M409.9,2.6c-9.7-0.6-19.5-1-29.2-1.5c-3.2-0.2-6.4-0.2-9.7-0.3c-7-0.2-14-0.4-20.9-0.5 c-3.9-0.1-7.8-0.2-11.7-0.3c-1.1,0-2.3,0-3.4,0c-2.5,0-5.1,0-7.6,0c-11.5,0-23,0-34.5,0c-2.7,0-5.5,0.1-8.2,0.1 c-6.8,0.1-13.6,0.2-20.3,0.3c-7.7,0.1-15.3,0.1-23,0.3c-12.4,0.3-24.8,0.6-37.1,0.9c-7.2,0.2-14.3,0.3-21.5,0.6 c-12.3,0.5-24.7,1-37,1.5c-6.7,0.3-13.5,0.5-20.2,0.9C112.7,5.3,99.9,6,87.1,6.7C80.3,7.1,73.5,7.4,66.7,8 C54,9.1,41.3,10.1,28.5,11.2c-2.7,0.2-5.5,0.5-8.2,0.7c-5.5,0.5-11,1.2-16.4,1.8c-0.3,0-0.7,0.1-1,0.1c-0.7,0.2-1.2,0.5-1.7,1 C0.4,15.6,0,16.6,0,17.6c0,1,0.4,2,1.1,2.7c0.7,0.7,1.8,1.2,2.7,1.1c6.6-0.7,13.2-1.5,19.8-2.1c6.1-0.5,12.3-1,18.4-1.6 c6.7-0.6,13.4-1.1,20.1-1.7c2.7-0.2,5.4-0.5,8.1-0.7c10.4-0.6,20.9-1.1,31.3-1.7c6.5-0.4,13-0.7,19.5-1.1c2.7-0.1,5.4-0.3,8.1-0.4 c10.3-0.4,20.7-0.8,31-1.2c6.3-0.2,12.5-0.5,18.8-0.7c2.1-0.1,4.2-0.2,6.3-0.2c11.2-0.3,22.3-0.5,33.5-0.8 c6.2-0.1,12.5-0.3,18.7-0.4c2.2-0.1,4.4-0.1,6.7-0.1c11.5-0.1,23-0.2,34.6-0.4c7.2-0.1,14.4-0.1,21.6-0.1c12.2,0,24.5,0.1,36.7,0.1 c2.4,0,4.8,0.1,7.2,0.2c6.8,0.2,13.5,0.4,20.3,0.6c5.1,0.2,10.1,0.3,15.2,0.4c3.6,0.1,7.2,0.4,10.8,0.6c10.6,0.6,21.1,1.2,31.7,1.8 c2.7,0.2,5.4,0.4,8,0.6c2.9,0.2,5.8,0.4,8.6,0.7c0.4,0.1,0.9,0.2,1.3,0.3c1.1,0.2,2.2,0.2,3.2-0.4c0.9-0.5,1.6-1.5,1.9-2.5 c0.6-2.2-0.7-4.5-2.9-5.2c-1.9-0.5-3.9-0.7-5.9-0.9c-1.4-0.1-2.7-0.3-4.1-0.4c-2.6-0.3-5.2-0.4-7.9-0.6 C419.7,3.1,414.8,2.9,409.9,2.6z"
-                  />
-                </svg>
+        <div className=' lg:flex xl:flex lg:gap-x-10 xl:gap-x-5 '>
+          <div className='mb-12 md:mb-6 xl:mt-5 xl:pr-10'>
+            <h1 className='text-4xl  md:text-[49.744px] lg:text-[58.192px]  xl:text-[4rem] font-heading font-bold lg:leading-[5rem] leading-tight xl:leading-[5rem]   mb-5'>Find the top <span className='relative inline-block z-10'>
+              Hotels nearby.<span className="hidden  absolute md:inline-block lg:inline-block xl:inline-block  right-0 -z-10 bottom-0 md:translate-x-2   xl:right-10 lg:-translate-x-8">
+              <svg width="390.5px" height="21.5px" viewBox="0 0 445.5 21.5">
+									<path className="fill-blue-500 opacity-7" d="M409.9,2.6c-9.7-0.6-19.5-1-29.2-1.5c-3.2-0.2-6.4-0.2-9.7-0.3c-7-0.2-14-0.4-20.9-0.5 c-3.9-0.1-7.8-0.2-11.7-0.3c-1.1,0-2.3,0-3.4,0c-2.5,0-5.1,0-7.6,0c-11.5,0-23,0-34.5,0c-2.7,0-5.5,0.1-8.2,0.1 c-6.8,0.1-13.6,0.2-20.3,0.3c-7.7,0.1-15.3,0.1-23,0.3c-12.4,0.3-24.8,0.6-37.1,0.9c-7.2,0.2-14.3,0.3-21.5,0.6 c-12.3,0.5-24.7,1-37,1.5c-6.7,0.3-13.5,0.5-20.2,0.9C112.7,5.3,99.9,6,87.1,6.7C80.3,7.1,73.5,7.4,66.7,8 C54,9.1,41.3,10.1,28.5,11.2c-2.7,0.2-5.5,0.5-8.2,0.7c-5.5,0.5-11,1.2-16.4,1.8c-0.3,0-0.7,0.1-1,0.1c-0.7,0.2-1.2,0.5-1.7,1 C0.4,15.6,0,16.6,0,17.6c0,1,0.4,2,1.1,2.7c0.7,0.7,1.8,1.2,2.7,1.1c6.6-0.7,13.2-1.5,19.8-2.1c6.1-0.5,12.3-1,18.4-1.6 c6.7-0.6,13.4-1.1,20.1-1.7c2.7-0.2,5.4-0.5,8.1-0.7c10.4-0.6,20.9-1.1,31.3-1.7c6.5-0.4,13-0.7,19.5-1.1c2.7-0.1,5.4-0.3,8.1-0.4 c10.3-0.4,20.7-0.8,31-1.2c6.3-0.2,12.5-0.5,18.8-0.7c2.1-0.1,4.2-0.2,6.3-0.2c11.2-0.3,22.3-0.5,33.5-0.8 c6.2-0.1,12.5-0.3,18.7-0.4c2.2-0.1,4.4-0.1,6.7-0.1c11.5-0.1,23-0.2,34.6-0.4c7.2-0.1,14.4-0.1,21.6-0.1c12.2,0,24.5,0.1,36.7,0.1 c2.4,0,4.8,0.1,7.2,0.2c6.8,0.2,13.5,0.4,20.3,0.6c5.1,0.2,10.1,0.3,15.2,0.4c3.6,0.1,7.2,0.4,10.8,0.6c10.6,0.6,21.1,1.2,31.7,1.8 c2.7,0.2,5.4,0.4,8,0.6c2.9,0.2,5.8,0.4,8.6,0.7c0.4,0.1,0.9,0.2,1.3,0.3c1.1,0.2,2.2,0.2,3.2-0.4c0.9-0.5,1.6-1.5,1.9-2.5 c0.6-2.2-0.7-4.5-2.9-5.2c-1.9-0.5-3.9-0.7-5.9-0.9c-1.4-0.1-2.7-0.3-4.1-0.4c-2.6-0.3-5.2-0.4-7.9-0.6 C419.7,3.1,414.8,2.9,409.9,2.6z" />
+								</svg>
               </span>
             </span></h1>
-            <p className='text-gray-500 mb-5'>We bring you not only a stay option, but an experience in your budget to enjoy the luxury.</p>
+            <p className='text-gray-500 dark:text-gray-400 mb-5'>We bring you not only a stay option, but an experience in your budget to enjoy the luxury.</p>
             <div id="waypoint" className='flex items-center gap-x-6'>
-              <Button className="bg-accent font-bold text-blue-600 hover:bg-blue-600 hover:text-white">Discover now</Button>
+              <Button className="bg-accent font-bold text-base text-blue-600 hover:bg-blue-600 hover:text-white">Discover now</Button>
               <a className='flex items-center gap-x-3' href="https://www.youtube.com/embed/tXHviS-4ygo">
                 <div className='relative inline-block'>
                   <img className='   w-12  h-12 rounded-full' src="./12.jpg" />
-                  <span className='absolute flex justify-center items-center top-0 bottom-0 right-0 left-0 m-auto w-6 h-6 p-2 rounded-full bg-white'>
+                  <span className='absolute flex justify-center items-center top-0 bottom-0 right-0 left-0 m-auto w-6 h-6 p-2 rounded-full dark:text-black bg-white'>
 
                     <FaPlay />
                   </span>
@@ -42,19 +37,19 @@ const HeroSectionHome = () => {
               </a>
             </div>
           </div>
-          <div className='relative'>
-            <img className='w-full rounded-lg' src="./06.jpg" />
+          <div className='relative md:px-5'>
+            <img className='w-full h-full rounded-lg' src="./06.jpg" />
 
-            <img className='absolute w-20 h-20 border-4 border-white rounded-full -translate-y-5 -translate-x-1/2 top-1/4' src="./13.jpg" />
-            <img className='absolute w-16 h-16 border-4 border-white rounded-full -translate-y-5 -translate-x-1/2 top-10' src="./11.jpg" />
-            <div className='absolute -top-6 -right-6 w-[141.88px] h-[136.67px] rounded-xl border border-white  z-10 backdrop-blur-sm bg-white/30 shadow-md  flex justify-center items-center'>
+            <img className='hidden md:inline-block lg:inline-block xl:inline-block absolute w-20 h-20 border-[3px] border-white rounded-full -translate-y-5 md:left-0 md:top-40 md:translate-x-1 -translate-x-1/2 top-1/4' src="./13.jpg" />
+            <img className='hidden md:inline-block lg:inline-block xl:inline-block absolute w-16 h-16 border-[3px] border-white rounded-full -translate-y-5 md:left-0 md:translate-x-1 md:top-12 -translate-x-1/2 top-10' src="./11.jpg" />
+            <div className='absolute -top-6 -right-6 w-[141.88px] h-[136.67px] rounded-xl border border-white dark:border-black  z-10 backdrop-blur-sm bg-white/30 shadow-md  flex justify-center items-center'>
               <div className='flex flex-col  '>
-                <BsHeadset className='text-4xl text-[#d6293e] mx-auto mb-3 mt-3' />
-                <h6 className='mx-auto text-xl font-heading font-bold'>24 / 7</h6>
-                <p>Guide Supports</p>
+                <BsHeadset className='text-4xl  text-[#d6293e] mx-auto mb-3 mt-3' />
+                <h6 className='mx-auto text-xl font-heading font-bold dark:text-gray-900'>24 / 7</h6>
+                <p className='dark:text-gray-900'>Guide Supports</p>
               </div>
             </div>
-            <span className='absolute bottom-4 right-0 translate-x-6'>
+            <span className='absolute bottom-4 right-0   xl:translate-x-6'>
               <svg width="163px" height="163px" viewBox="0 0 163 163" className='text-yellow-300'>
                 <path className="fill-warning" d="M145.6,66.2c-0.9-0.3-1.6,0.2-2.1-0.4c-0.5-0.7-1-1.5-1-2.4c0-3.1,0.1-6.2,0-9.3c0-0.7,0.3-1.3,0.5-1.9 c0.8-1.6,1.6-3.2,2.7-4.5c0.5-0.6,1.2-1.2,2-1.5c0.4-0.2,0.8,0.4,1.3-0.1c0.4-0.4,1,0.7,1.6,0.7c0.4,1-0.4,1.5-1,2.1 c0.7,0.3,1.4,0.3,2.1,0.7c0.6,0.4,1.2,0.7,1,1.5c-0.2,1,0.6,1.3,1,1.9c-0.2,0.3-0.6,0.4-0.5,0.8c1.2,3.2,0.3,5.4-0.7,8.1 c-0.3,0.7-0.7,1.6-0.7,2.2c-0.1,1.5-1.2,2.7-1.4,4.1c-0.2,1.1-0.9,1.7-2.1,1.6c-0.2,0-0.4,0.5-1,0.4c-0.2-0.2-0.7-0.5-0.7-0.8 c0-1-0.1-1.7-1.1-2.1C145.5,67.2,145.6,66.6,145.6,66.2" />
                 <path className="fill-warning" d="M94.3,143.5c1.1,0.3,2.4-0.5,3.2,0.7c-0.4,0.7-0.7,1.4-1,2.1c0.5,0.5,0.7,0.2,1.2,0.1c1.6-0.6,2-0.4,2.5,1.2 c0.1,0.2,0,0.6,0.3,0.6c1.8,0.4,1.4,2.2,2.1,3.2c-0.8,0.9,0.5,1.8,0.1,2.6c-0.5,0.8-0.3,2-1.3,2.6c-0.3,0.2-0.1,0.5-0.2,0.7 c-0.3,2.1-1.2,3.7-3.4,4.4c-0.3,0.1-0.4,0.6-1,0.4c-0.3-0.6-0.6-1.3-1-1.9c-0.5-0.2-1.5,0.3-1.4-1h-3c-0.2-1.4,0-2.9-1.1-3.9 c-0.1-0.1-0.1-0.4,0-0.5c0.7-1.2,0.2-2.6,0.7-3.8c0.3-0.6,0.4-1,0.1-1.6c-0.9-1.3,0-2.4,0.7-3.3C92.5,145,93.4,144.3,94.3,143.5" />
@@ -75,13 +70,13 @@ const HeroSectionHome = () => {
             </span>
           </div>
         </div>
-        <div  className='absolute  bottom-0 -translate-y-5'>
-          <h1 className='text-base font-heading font-bold'>Check Availability</h1>
-          <div className='inline-flex relative items-center gap-x-5  px-8 py-8 bg-white rounded-lg  shadow-lg mt-5'>
+        <div  className='xl:absolute lg:absolute -mt-14 xl:mt-0 md:px-5 mb-32 xl:mb-0  bottom-0 lg:bottom-0 lg:translate-y-[150%] xl:-translate-y-5 w-full'>
+          <h1 className='text-base font-heading font-bold hidden  xl:block'>Check Availability</h1>
+          <div className='xl:inline-flex flex xl:flex-row lg:flex lg:flex-row  flex-col md:flex-col  relative lg:items-center  gap-y-8 lg:gap-x-5 xl:gap-x-5 py-10  px-8 xl:py-8 bg-white dark:bg-[#191B1D] rounded-lg  shadow-lg mt-5 md:pr-12'>
             <ComboboxComponents />
             <CheckInOutComponents />
             <ComboboxDemo />
-            <a className='absolute right-0 translate-x-1/2 w-14 aspect-square bg-blue-600 text-white rounded-full text-xl flex items-center justify-center'>
+            <a className='absolute bottom-0 translate-x-32 translate-y-1/2 xl:-translate-y-1/2 lg:-translate-y-1/2 lg:right-[11%] md:bottom-[50%] md:right-[15%]  xl:right-0 xl:translate-x-1/2 w-14 aspect-square bg-blue-600 text-white rounded-full text-xl flex items-center justify-center'>
               <BsSearch />
             </a>
           </div>

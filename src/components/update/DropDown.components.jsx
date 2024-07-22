@@ -10,8 +10,8 @@ import {
 
 const DropDownComponents = ({button,children,...props}) => {
   return (
-    <DropdownMenu>
-        <DropdownMenuTrigger className='bg-white border-none outline-none overflow-hidden rounded-md focus-within:ring-0' >
+    <DropdownMenu >
+        <DropdownMenuTrigger className='bg-white dark:bg-darkBg border-none outline-none overflow-hidden rounded-md focus-within:ring-0' >
           {button}
         </DropdownMenuTrigger>
         <DropdownMenuContent {...props}>

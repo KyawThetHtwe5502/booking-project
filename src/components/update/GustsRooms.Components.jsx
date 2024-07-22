@@ -55,29 +55,29 @@ export function ComboboxDemo() {
   }
 
   return (
-    <div className="flex items-center  gap-x-2 mr-6">
-      <BsPerson className="text-4xl text-gray-500" />
+    <div className="flex items-center md:w-full  gap-x-2 xl:mr-6">
+      <BsPerson className="text-4xl text-gray-500 dark:text-gray-400" />
 
-      <Popover open={open} onOpenChange={setOpen}>
-      <PopoverTrigger >
+      <Popover className="" open={open} onOpenChange={setOpen}>
+      <PopoverTrigger className="md:w-full w-full" >
         <Button
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-[220px] flex justify-between hover:bg-white py-7 relative border border-gray-400"
+          className="xl:w-[220px] w-full md:w-full flex justify-between dark:text-gray-200 dark:bg-[#191B1D] dark:hover:bg-opacity-100] text-base hover:bg-white py-7 relative border border-gray-400"
         >
-          <h3 className="absolute top-0 -translate-y-4 z-[10] bg-white text-gray-500 font-normal px-2 ">Gusts & rooms</h3>
+          <h3 className="absolute top-0 -translate-y-4 z-[10] dark:bg-[#191B1D] text-base dark:text-gray-300 bg-white text-gray-500 font-normal px-2 ">Gusts & rooms</h3>
 
            {gust.adult + gust.child} Gusts {room} Rooms
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[250px] p-0 bg-white hover:bg-white active:bg-white">
-        <Command className="bg-white">
+      <PopoverContent className="xl:w-[250px]   p-0 bg-white hover:bg-white dark:bg-[#191B1D] active:bg-white">
+        <Command className="bg-white dark:bg-[#191B1D]">
           
           <CommandList >
             
             <CommandGroup >
-              <CommandItem className="flex items-center justify-between bg-white hover:bg-white">
+              <CommandItem className="flex items-center justify-between bg-white dark:bg-[#191B1D]  hover:bg-white">
                 <div>
                   <h1 className="font-heading text-base font-bold">Adults</h1>
                   <p>Ages 13 or above</p>
@@ -88,7 +88,7 @@ export function ComboboxDemo() {
                 <BsPlusCircle className="text-xl text-blue-400" onClick={addAdult} />
                 </span>
               </CommandItem>
-              <CommandItem className="flex items-center justify-between">
+              <CommandItem className="flex items-center justify-between bg-white dark:bg-[#191B1D]  hover:bg-white">
                 <div>
                   <h1 className="font-heading text-base  font-bold">Child</h1>
                   <p>Ages 13 below</p>
@@ -99,7 +99,7 @@ export function ComboboxDemo() {
                 <BsPlusCircle className="text-xl text-blue-400" onClick={addChild} />
                 </span>
               </CommandItem>
-              <CommandItem className="flex items-center justify-between">
+              <CommandItem className="flex items-center justify-between bg-white dark:bg-[#191B1D]  hover:bg-white">
                 <div>
                   <h1 className="font-heading text-base font-bold">Rooms</h1>
                   <p>max room 8</p>

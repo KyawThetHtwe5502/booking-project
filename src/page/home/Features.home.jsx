@@ -38,8 +38,8 @@ const FeaturesHome = () => {
     ]
   return (
     <section className='container mx-auto'>
-        <h3 className='text-5xl font-bold font-heading leading-[4rem] text-center mb-7'>Featured Hotels</h3>
-        <div className='grid grid-cols-4 gap-7'>
+        <h3 className='text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-bold font-heading leading-[4rem] text-center mb-7'>Featured Hotels</h3>
+        <div className='grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4  gap-7'>
             {featureItems.map((featureItem) => <FeatureItemsHome key={featureItem.id} item={featureItem} />)}
         </div>
     </section>

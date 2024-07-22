@@ -16,7 +16,7 @@ import HeaderSectionComponents from '../components/HeaderSection.components'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <NavComponents/>
         <HeaderSectionComponents/>
         <HeroSectionHome/>
