@@ -36,7 +36,7 @@ const HeroSectionChain = () => {
                     </div>
                     </CarouselItem>
                     <CarouselItem className="relative h-[400px] md:h-[600px] lg:h-[600px]  xl:h-[600px]  overflow-hidden">
-                        <iframe className="w-full h-full xl:h-screen    xl:bg-center pointer-events-none" src="https://www.youtube.com/embed/j56YlCXuPFU?si=ZCsbRdHl4KRi0-2h&autoplay=1&loop=1&mute=1&playlist=j56YlCXuPFU&controls=0&showinfo=0&modestbranding=0&fs=0&cc_load_policy=0&iv_load_policy=3&disablekb=1&" title="Looping Video" border="{0}"  frameborder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                        <iframe className="w-full h-full xl:h-screen     xl:bg-center pointer-events-none" src="https://www.youtube.com/embed/j56YlCXuPFU?si=ZCsbRdHl4KRi0-2h&autoplay=1&loop=1&mute=1&playlist=j56YlCXuPFU&controls=0&showinfo=0&modestbranding=0&fs=0&cc_load_policy=0&iv_load_policy=3&disablekb=1&" title="Looping Video" border="{0}"  frameborder="0" allow="autoplay; encrypted-media" allowFullScreen />
                         <div className='w-full h-full absolute bg-dark top-0 opacity-70'></div>
                         <div className='absolute top-0 flex  flex-col items-center justify-center w-full h-full '>
                         <div className='w-[800px] flex flex-col items-center px-60 md:px-20 lg:px-32  gap-2'>

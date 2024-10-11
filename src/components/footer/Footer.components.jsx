@@ -125,10 +125,10 @@ const FooterComponents = () => {
             <a className='hover:text-blue-600 duration-200' href="#">Webestica.</a>
             
           </p>
-          <ul className='hidden xl:flex items-center gap-x-3'>
+          <ul className='hidden xl:flex items-center gap-x-8'>
             <li><a className="hover:text-blue-600 duration-200" href="#">Privacy policy</a></li>
             <li><a className="hover:text-blue-600 duration-200" href="#">Terms and conditions</a></li>
-            <li><a className="hover:text-blue-600 duration-200" href="#">ReFund policy</a></li>
+            <li><a className="hover:text-blue-600 duration-200" href="#">Refund policy</a></li>
           </ul>
         </div>
       </div>

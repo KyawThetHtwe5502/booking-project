@@ -17,7 +17,7 @@ const ChainPage = () => {
   return (
     <div className=''>
       <NavChainComponents/>
-      {/* <HeroSectionChain/>
+      <HeroSectionChain/>
       <OfferChain/>
       <AboutChain/>
       <NearPlaceChain/>
@@ -25,7 +25,7 @@ const ChainPage = () => {
       <BookChain/>
       <MomentsChain/>
       <FooterComponents/>
-      <ScrollToTopComponents/> */}
+      <ScrollToTopComponents/>
     </div>
   )
 }
