@@ -69,7 +69,7 @@ const NavComponents = () => {
                 </DropdownMenuItem>
               </MobileDropDownComponents>
             </span>
-            <div className='hidden xl:flex items-center gap-x-2'>
+            <div className='hidden xl:flex xl:items-center xl:gap-x-2'>
               <NavigationComponents item="Hotel"   >
                 <Button className="bg-white dark:bg-opacity-0 dark:text-gray-400 dark:hover:text-blue-400 text-slate-800 hover:bg-accent  hover:text-blue-600 w-full pr-20">Hotel Home</Button>
                 <NavLink to={"/hotel-chain"}>
